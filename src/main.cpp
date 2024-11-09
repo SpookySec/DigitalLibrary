@@ -17,6 +17,9 @@ int main() {
     CMT(cout, "Use 'help' to display available commands.\n");
     CMT(cout, "Press TAB to auto-complete and CTRL+L to clear the screen.\n");
 
+    addUser(cout, "admin", "librarian");
+    addUser(cout, "user", "member");
+
     // Set up the CLI root menu
     auto root_menu = make_unique<Menu>("library");
     SetColor(); // Enable terminal color output
