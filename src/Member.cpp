@@ -1,6 +1,6 @@
-#include "Member.h"
 #include <iostream>
-#include "color.hpp"
+#include "../hdr/Member.h"
+#include "../hdr/color.hpp"
 
 using namespace std;
 

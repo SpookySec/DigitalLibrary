@@ -1,7 +1,7 @@
-#include "Librarian.h"
-#include "LibrarySystem.h"
 #include <iostream>
-#include "color.hpp"
+#include "../hdr/Librarian.h"
+#include "../hdr/LibrarySystem.h"
+#include "../hdr/color.hpp"
 
 using namespace std;
 

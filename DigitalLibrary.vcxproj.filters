@@ -18,96 +18,96 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LibraryBook.h">
+    <ClInclude Include="hdr\LibraryBook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="color.hpp">
+    <ClInclude Include="hdr\color.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LibraryUser.h">
+    <ClInclude Include="hdr\LibraryUser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Member.h">
+    <ClInclude Include="hdr\Member.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Librarian.h">
+    <ClInclude Include="hdr\Librarian.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LibrarySystem.h">
+    <ClInclude Include="hdr\LibrarySystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="includes.h">
+    <ClInclude Include="hdr\includes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cmds.h">
+    <ClInclude Include="hdr\cmds.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\boostasiocliasyncsession.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\boostasiocliasyncsession.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\boostasioremotecli.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\boostasioremotecli.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\boostasioscheduler.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\boostasioscheduler.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\cli.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\cli.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\clifilesession.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\clifilesession.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\clilocalsession.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\clilocalsession.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\colorprofile.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\colorprofile.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\filehistorystorage.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\filehistorystorage.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\historystorage.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\historystorage.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\loopscheduler.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\loopscheduler.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\scheduler.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\scheduler.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\standaloneasiocliasyncsession.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\standaloneasiocliasyncsession.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\standaloneasioremotecli.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\standaloneasioremotecli.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\standaloneasioscheduler.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\standaloneasioscheduler.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
-    <ClInclude Include="cli-2.2.0\include\cli\volatilehistorystorage.h">
+    <ClInclude Include="hdr\cli-2.2.0\include\cli\volatilehistorystorage.h">
       <Filter>Header Files\cli</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LibraryBook.cpp">
+    <ClCompile Include="src\LibraryBook.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Member.cpp">
+    <ClCompile Include="src\Member.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Librarian.cpp">
+    <ClCompile Include="src\Librarian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LibrarySystem.cpp">
+    <ClCompile Include="src\LibrarySystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LibraryUser.cpp">
+    <ClCompile Include="src\LibraryUser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cmds.cpp">
+    <ClCompile Include="src\cmds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

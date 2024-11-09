@@ -1,5 +1,5 @@
-#include "LibraryBook.h"
-#include "color.hpp"
+#include "../hdr/LibraryBook.h"
+#include "../hdr/color.hpp"
 
 // Static variable to keep track of the total number of books
 int LibraryBook::total_books = 0;

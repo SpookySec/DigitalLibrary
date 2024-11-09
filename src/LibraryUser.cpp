@@ -1,4 +1,4 @@
-#include "LibraryUser.h"
+#include "../hdr/LibraryUser.h"
 
 // Returns the name of the library user
 string LibraryUser::getName() {

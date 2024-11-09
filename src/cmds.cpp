@@ -1,10 +1,10 @@
 #include <random>
 #include <memory>
-#include "cmds.h"
-#include "Member.h"
-#include "Librarian.h"
-#include "LibraryUser.h"
-#include "LibrarySystem.h"
+#include "../hdr/cmds.h"
+#include "../hdr/Member.h"
+#include "../hdr/Librarian.h"
+#include "../hdr/LibraryUser.h"
+#include "../hdr/LibrarySystem.h"
 
 shared_ptr<LibraryUser> current;
 

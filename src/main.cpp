@@ -1,17 +1,15 @@
-#include "includes.h"
-#include "cli-2.2.0/include/cli/cli.h"
-#include "cli-2.2.0/include/cli/loopscheduler.h"
-#include "cli-2.2.0/include/cli/clilocalsession.h"
-#include "cli-2.2.0/include/cli/scheduler.h"
-#include "color.hpp"
-#include "cmds.h"
+#include "../hdr/includes.h"
+#include "../hdr/cli-2.2.0/include/cli/cli.h"
+#include "../hdr/cli-2.2.0/include/cli/loopscheduler.h"
+#include "../hdr/cli-2.2.0/include/cli/clilocalsession.h"
+#include "../hdr/cli-2.2.0/include/cli/scheduler.h"
+#include "../hdr/color.hpp"
+#include "../hdr/cmds.h"
 
 using namespace cli;
 
 // Global variable representing the current logged-in user
 extern shared_ptr<LibraryUser> current;
-
-
 
 int main() {
     // Display initial messages to welcome the user and provide guidance
