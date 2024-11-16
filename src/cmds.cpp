@@ -83,7 +83,7 @@ void addBook(ostream& out, string title, string author, string ISBN) {
     shared_ptr<LibraryBook> book = make_shared<LibraryBook>(title, author, ISBN, true);
 
     if (librarian->addBook(book)) {
-        SCS(out, "Book added successfully!\n");
+        SCS(out, "Added book: " << "\"" << title << "\" by " << author << ", ISBN: " << ISBN << "\n");
     }
     else {
         ERR(out, "Book already exists!\n");
